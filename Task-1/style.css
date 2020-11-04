@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 50px 200px;
+    background: rgb(82, 72, 255);
+    background: linear-gradient(90deg, rgba(82, 72, 255, 1) 0%, rgba(82, 91, 181, 1) 24%, rgba(100, 166, 250, 1) 100%);
+}
+
+.small-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 50px 0;
+}
+
+#first-img:hover {
+    filter: brightness(80%);
+}
+
+#second-img {
+    display: block;
+    width: 320px;
+    height: 210px;
+}
+
+#second-img:hover {
+    filter: brightness(80%);
+}
+
+#third-img {
+    display: block;
+    width: 320px;
+    height: 210px;
+}
+
+#third-img:hover {
+    filter: brightness(80%);
+}
+
+#second-big-img {
+    display: block;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    display: none;
+}
+
+#third-big-img {
+    display: block;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    display: none;
+}
