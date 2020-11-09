@@ -201,20 +201,18 @@ function haveFood(unit) {
     
 
     // Если еда
-    return function() {
-        if (unit_classes.includes('food-unit')) {
-            check = true;
-            createFood();
+
     
+    if (unit_classes.includes('food-unit')) {
+        check = true;
+        createFood();
+
+        return function() {
             score++;
             document.getElementById("game-score").innerHTML = score; // выводит счётчик
         }
-        return check;
     }
-
-    
-
-    
+    return check;
 }
 
 
